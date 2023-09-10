@@ -21,5 +21,5 @@ Route::get('/', function () {
 });
 
 Route::get('users', function(){
-    dd(User::all());
+    return User::all();
 });
