@@ -20,5 +20,5 @@ Route::get('/', function () {
 });
 
 Route::get('users', function(){
-    return User::all();
+    return 'this is users';
 });
